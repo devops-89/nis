@@ -15911,6 +15911,17 @@ xclip
   background: var(--rt-white);
   height: 600px;
 }
+
+.rts__single--instagram{
+  border-radius: 17px;
+  background: var(--rt-white);
+  height: 520px;
+}
+
+.rts__single--instagram>video{
+  border-radius: 17px;
+}
+
 @media screen and (max-width: 768px) {
   .rts__single--testimonial {
     padding: 40px;
