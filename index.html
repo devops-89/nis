@@ -294,16 +294,16 @@
                     <div class="rts-about-details">
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title" id=""> 396 </h3>
+                                <h3 class="title" id="number1" > 396 </h3>
                                 <img src="assets/images/icon/11.svg" alt="">
-                            </div>
+                              </div>
                             <div class="desc">
                                 <p>Ranking of University of Nis in Europe</p>
                             </div>
                         </div>
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title" id=""> 1240</h3>
+                                <h3 class="title" id="number2"> 1240</h3>
                                 <img src="assets/images/icon/12.svg" alt="">
                             </div>
                             <div class="desc">
@@ -1505,8 +1505,8 @@
         function startAnimation(entries, observer) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    animateNumber('number1', 0, 20500, 2000); // Start from 0, end at 20559, duration 2000ms
-                    animateNumber('number2', 0, 1492, 2000); // Start from 0, end at 1492, duration 2000ms
+                    animateNumber('number1', 0, 396, 2000); // Start from 0, end at 20559, duration 2000ms
+                    animateNumber('number2', 0, 1240, 2000); // Start from 0, end at 1492, duration 2000ms
                     animateNumber('number3', 0, 3, 2000); // Start from 0, end at 300000, duration 2000ms
                     observer.unobserve(entry.target); // Stop observing once animation starts
                 }
